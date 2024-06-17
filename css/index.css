@@ -31,7 +31,7 @@ img {
 }
 
 .first-view {
-  height: calc(100vh - 110px);
+  height: calc(90vh - 95px);
   background-image: url(../img/firstview-img01.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -52,20 +52,36 @@ img {
   width: 170px;
 }
 
+.header-logo:hover{
+  animation: rotate-logo 5s linear infinite;
+}
+
+@keyframes rotate-logo {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .site-menu ul {
   display: flex;
 }
 
 .site-menu ul li {
   margin: 20px 20px;
+  padding: 0;
 }
 
 .site-menu img {
-   margin: 20px;
+  width: 50px;
+   margin: 12px;
 }
 
 .site-menu ul img {
-  margin: 20px;
+  margin-top: 15px;
 }
 
 .footer {
@@ -121,6 +137,7 @@ img {
   display: block;
   font-size: 45px;
   font-weight: 800;
+  height: 120px;
 }
 .feature img {
   width: 50%;
@@ -139,6 +156,7 @@ img {
   display: block;
   font-size: 45px;
   font-weight: 800;
+  height: 120px;
 }
 
 .item-list {

@@ -6,6 +6,7 @@
   <meta name="description" content="ページの概要文を記載">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/shop-detail.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -34,68 +35,84 @@
       </div>
    </div>
    <div class="main">
-     <div class="title-shop">
-      <h1 id="SHOP">SHOP</h1>
-      <ul class="item-list">
-        <li>
-          <a href="./shop-detail.html"></a>
-          <img src="./img/item-img01.jpg" alt="ピアス01">
-          <dl>
-           <dt>商品名</dt>
-           <dd>商品説明</dd>
-          </dl>
-          <p class="price">¥1000</p>
-          <a href="">カートへ入れる</a>
-        </li>
-       <div class="tagu">
-        <h3>商品一覧</h3>
-       </div>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img04.jpg" alt="ピアス04">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        </li>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img03.png" alt="ピアス03">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        </li>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img02.png" alt="ピアス02">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        </li>
-        <!-- <li>
+      <div class="title">
+        <h1>SHOP</h1>
+      </div>
+      <div class="shop-contents">
+        <div class="item-area">
+           <img src="./img/item-img01.jpg" alt="ピアス01">
+           <div class="item-name">
+               <h2>商品名</h2>
+           </div>
+           <div class="about-item">
+             <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, unde.</p>
+             <p class="price">¥1000</p>
+             <div class="quantity">
+               <select name="suuryou">
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+               </select>
+               <div class="cart">
+                <a href="">カートへ入れる</a>
+               </div>
+             </div>
+           </div>
+         </li>
+        </div>
+        <div class="item-group">
+          <h3>商品一覧</h3>
+          <ul class="item-list">
+           <li>
+             <a href="./shop-detail.html">
+             <img src="./img/item-img04.jpg" alt="ピアス04">
+             <dl>
+              <dt>商品名</dt>
+             </dl>
+             <p class="price">¥1000</p>
+             </a>
+           </li>
+           <li>
+             <a href="./shop-detail.html">
+             <img src="./img/item-img03.png" alt="ピアス03">
+             <dl>
+              <dt>商品名</dt>
+             </dl>
+             <p class="price">¥1000</p>
+             </a>
+           </li>
+           <li>
+             <a href="./shop-detail.html">
+             <img src="./img/item-img02.png" alt="ピアス02">
+             <dl>
+              <dt>商品名</dt>
+             </dl>
+             <p class="price">¥1000</p>
+             </a>
+           </li>
+         <!-- <li>
           <img src="./img/item-img01.jpg" alt="ピアス01">
           <dl>
            <dt>商品名</dt>
           </dl>
           <p class="price">\1000</p>
-        </li> -->
-      </ul>
-    <aside class="shop-menu">
-      <div class="sidebar">
-      <h3>CATEGORY</h3>
-      <ul>
-        <li><a href="">NEW商品</a></li>
-        <li><a href="">ピアス</a></li>
-        <li><a href="">キーホルダー</a></li>
-        <li><a href="">その他アイテム</a></li>
-      </ul>
-      </div>
-    </aside>
+         </li> -->
+          </ul>
+        </div>
+       <aside class="shop-menu">
+         <div class="sidebar">
+           <h3>CATEGORY</h3>
+          <ul>
+            <li><a href="">NEW商品</a></li>
+            <li><a href="">ピアス</a></li>
+            <li><a href="">キーホルダー</a></li>
+            <li><a href="">その他アイテム</a></li>
+          </ul>
+         </div>
+       </aside>
+     </div>
    </div>
    <div class="footer">
     <nav class="footer-site-menu">
