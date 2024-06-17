@@ -30,12 +30,14 @@
 }
 
 .item-area img {
+  display: flex;
   width: 75%;
+
 }
 
 .item-name {
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .about-item {
@@ -43,7 +45,21 @@
   font-size: 20px;
 }
 
+.item-text {
+  justify-content: flex-start;
+}
+
 .about-item .price {
   margin-top: 10px;
   padding-bottom: 20px;
+}
+
+.quantity {
+  margin-top: 25px;
+  display: flex;
+}
+
+.payment a {
+  margin: 20px;
+  font-size: 15px;
 }
