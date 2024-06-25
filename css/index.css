@@ -7,9 +7,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-.html {
-  scroll-behavior: smooth;
-}
 
 ul,
 ol {
@@ -35,23 +32,30 @@ img {
 }
 
 .first-view {
-  height: calc(100vh - 110px);
+  height: calc(110vh - 100px);
   background-image: url(../img/firstview-img01.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-
+  margin-top: 45px;
 }
 
 .header {
+  background-color: #dedfdf;
   background-image: url(../img/header-img.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  z-index: 1000;
 }
 .header-inner {
   max-width: 1500px;
-  height: 100px;
+  height: 85px;
   margin: 20px 30px;
   display: flex;
   justify-content: space-between;
@@ -60,7 +64,8 @@ img {
 
 .header-logo {
   display: block;
-  width: 120px;
+  width: 85px;
+  margin-bottom: 22px;
 }
 
 .header-logo:hover{
@@ -86,13 +91,14 @@ img {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-  padding-top: 55px;
+  padding-top: 45px;
   
 }
 
 .header-link img {
   margin-top: 20px;
-  padding-top: 20px;
+  padding: auto;
+  height: 47px;
 }
 
 
@@ -198,7 +204,7 @@ img {
 }
 
 .item-list img:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .item-list dl {
