@@ -6,67 +6,70 @@
   <meta name="description" content="ページの概要文を記載">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   <title>ログイン|Quashop-website</title>
 </head>
 <body>
-   <div class="header">
-      <div class="header-inner">
-        <a class="header-logo" href="./index.html">
-            <img src="./img/header-logo.png" alt="logo">
-        </a>
-        <div class="header-site-menu">
-          <nav class="site-menu">
-            <ul>
-              <li><a href="#CONCEPT">CONCEPT</a></li>
-              <li><a href="#SHOP">SHOP</a></li>
-              <li><a href="./login.html">SIGN IN/MY PAGE</a></li>
-                 <img src="./img/header-icon02.png" alt="like">
-              </a>
-              <img src="./img/header-icon01.png" alt="cart">
-            </ul>
-          </nav>
-        </div>
+  <div class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./index.html">
+          <img src="./img/header-img3.png" alt="logo">
+      </a>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="./index.html">CONCEPT</a></li>
+            <li><a href="./index.html">SHOP</a></li>
+            <li><a href="./login.html">SIGN IN/MY PAGE</a></li>
+            <div class="header-link">    
+             <a href="./wishlist.html">
+              <img src="./img/header-icon02.png" alt="like">
+             </a>
+             <img src="./img/header-icon01.png" alt="cart">
+            </div>  
+          </ul>
+        </nav>
       </div>
-   </div>
-   <div class="main">
-     <div class="title">
-       <h1>SIGN IN/MY PAGE</h1>
-       <form action="#">
-        <dl class="form-area">
-          <dt>mail</dt>
-          <dd><input type="input-text" type="text" name="mail"></dd>
-          <dt>pass</dt>
-          <dd><input type="input-text" type="text" name="pass"></dd>
-        </dl>
-       </form>
-     </div>
-      <!-- <p class="confirm-text">ご入力内容をご確認の上、お間違いがなければ[ok]ボタンを押してください。</p> -->
-      <button class="submit-button" type="submit">sign in</button>
-     </div>
-   </div>
+    </div>
+ </div>
+ <div class="main"></div>
    <div class="footer">
     <nav class="footer-site-menu">
-      <ul>
-        <div class="title">
-          <li>HELP</li>
-        <table>お問い合わせ</table>
+        <div class="container">
+          <ul>
+            <h4>HELP</h4>
+            <li>お問い合わせ</li>
            <select>
               <option>チャット</option>
               <option>お電話</option>
               <option>支払い方法</option>
            </select>
+          </ul>
+          <ul>
+            <h4>GUIDE</h4>
+            <li><a href="">利用規約</a></li>
+          </ul>
+          <ul>
+            <h4>SNS</h4>
+            <li><a href="https://www.instagram.com/_quashop_?igsh=MWJpYmF2eXllNm41Ng%3D%3D&utm_source=qr">Instagram</a></li>
+          </ul>
+          <ul>
+            <h4>ACCOUNT</h4>
+            <li><a href="./login.html">Sign in / My page</a></li>
+          </ul>
         </div>
-      <ul> 
-      <ul class="container">
-        <li class="guide">GUIDE</li>
-        <li class="terms"><a href="">利用規約</a></li>
-        <li class="sns">SNS</li>
-        <li class="instagram"><a rel="stylesheet" href="https://www.instagram.com/_quashop_?igsh=MWJpYmF2eXllNm41Ng%3D%3D&utm_source=qr">instagram</a></li>
-        <li class="account">ACCOUNT</li>
-        <li class="signin/mypage"><a href="./login.html">Sign in / My Page</a></li>
-      </ul>
-    </nav>
-    <p class="copyright"><small>&copy;Qua-shop</small></p>
-   </div>  
+       <!-- <div class="container">
+          <li class="guide">GUIDE</li>
+          <li class="terms"><a href="">利用規約</a></li>  
+          <li class="sns">SNS</li>
+          <li class="instagram"><a rel="stylesheet" href="https://www.instagram.com/_quashop_?igsh=MWJpYmF2eXllNm41Ng%3D%3D&utm_source=qr">instagram</a></li>
+          <li class="account">ACCOUNT</li>
+          <li class="signin/mypage"><a href="./login.html">Sign in / My Page</a></li>
+       </div> -->
+    </nav>  
+   <p class="copyright"><small>&copy;Qua-shop</small></p>
+   </div>
 </body>
 </html>
