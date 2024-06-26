@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ページの概要文を記載">
   <link rel="stylesheet" href="./css/index.css">
-  <!-- <link rel="stylesheet" href="./css/sign.css"> -->
+  <link rel="stylesheet" href="./css/shop-detail.css">
+  <link rel="stylesheet" href="./css/sign.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -36,78 +37,19 @@
       </div>
    </div>
    <div class="main">
-     <div class="first-view"></div>
-      <div class="feature">
-        <div class="feature-text">
-         <h1 id="CONCEPT">CONCEPT</h1>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cupiditate nostrum, delectus asperiores commodi quos alias possimus doloremque corporis minima incidunt sed iusto cum, quas modi, fuga non ad ea exercitationem beatae similique amet assumenda soluta. Id officiis dignissimos maiores odit velit magnam eius ut ad, quas nam sapiente debitis.</p>
-        </div>
-        <img src="./img/conceptimag.png" alt="コンセプト">
+     <div class="title">
+       <h1>SIGN IN / MY PAGE</h1>
      </div>
-     <div class="title-shop">
-      <h1 id="SHOP">SHOP</h1>
-      <ul class="item-list">
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img01.jpg" alt="ピアス01">
-          <dl>
-           <dt>pierrot pierced</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        </li>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img02.png" alt="ピアス02">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        </li>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img03.png" alt="ピアス03">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        </li>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img04.jpg" alt="ピアス04">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-         </a>
-        </li>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img05.png" alt="ピアス05">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        <li>
-          <a href="./shop-detail.html">
-          <img src="./img/item-img06.jpg" alt="ピアス06">
-          <dl>
-           <dt>商品名</dt>
-          </dl>
-          <p class="price">¥1000</p>
-          </a>
-        </li>
-      </ul>
-      <!-- <h3>CATEGORY</h3>
-      <ul>
-        <li><a href="">NEW商品</a></li>
-        <li><a href="">ピアス</a></li>
-        <li><a href="">キーホルダー</a></li>
-        <li><a href="">その他アイテム</a></li>
-      </ul> -->
+     <div class="sign-container">
+      <form class="login-form">
+        <label for="email">mail:</label>
+        <input type="text" id="email" name="email">
+        <label for="password">pass:</label>
+        <input type="password" id="password" name="password">
+        <!-- <p class="confirm-text">ご入力内容をご確認の上、お間違いがなければ[ok]ボタンを押してください。</p> -->
+        <button class="submit-button" type="submit">sign in</button>
+       </form>
+     </div>
     </div>
    </div>
    <div class="footer">
