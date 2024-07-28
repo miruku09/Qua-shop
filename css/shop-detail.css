@@ -1,9 +1,5 @@
 @charset "utf-8";
  
-.header-link img {
-  margin-top: 20px;
-  padding-top: 20px;
-}
 
 .title {
   display: flex;
@@ -16,7 +12,7 @@
   margin-right: auto;
   box-sizing: border-box;
   border-bottom-style: dashed;
-  border-bottom-width: 1mm;
+  border-bottom-width: 0.5mm;
 }
 
 .title h1 {
